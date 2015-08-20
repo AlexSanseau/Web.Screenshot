@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Web.Screenshot</id>
+        <version>1.0.0.1</version>
+        <title>Web.Screenshot</title>
+        <authors>Alex Sanseau</authors>
+        <owners>Alex Sanseau</owners>
+		<iconUrl>https://github.com/AlexSanseau/Web.Screenshot/blob/master/nuget/Web.Screenshot.png</iconUrl>
+        <projectUrl>https://github.com/AlexSanseau/Web.Screenshot</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <summary>A C# library which takes screenshots of websites and emulate different devices and screen sizes</summary>
+        <description>Take screenshots of your websites for different screen sizes to see how it looks on different devices</description>
+        <copyright>Copyright ©  2015 - Novadus Ltd</copyright>
+		<tags>Screenshot printscreen responsive website screen size screen shot </tags>
+        <language></language>
+    </metadata>
+    <files>
+        <file src="install.ps1" target="tools\install.ps1"/>
+        <file src="net35\Alx.Web.Screenshot.dll" target="lib\net35\Alx.Web.Screenshot.dll" />
+        <file src="net40\Alx.Web.Screenshot.dll" target="lib\net40\Alx.Web.Screenshot.dll" />
+        <file src="net45\Alx.Web.Screenshot.dll" target="lib\net45\Alx.Web.Screenshot.dll" />
+        <file src="net451\Alx.Web.Screenshot.dll" target="lib\net451\Alx.Web.Screenshot.dll" />
+    </files>
+</package>
