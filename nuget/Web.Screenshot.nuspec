@@ -6,7 +6,7 @@
         <title>Web.Screenshot</title>
         <authors>Alex Sanseau</authors>
         <owners>Alex Sanseau</owners>
-		<iconUrl>https://github.com/AlexSanseau/Web.Screenshot/blob/master/nuget/Web.Screenshot.png</iconUrl>
+		<iconUrl>https://raw.githubusercontent.com/AlexSanseau/Web.Screenshot/master/nuget/Web.Screenshot.png</iconUrl>
         <projectUrl>https://github.com/AlexSanseau/Web.Screenshot</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <summary>A C# library which takes screenshots of websites and emulate different devices and screen sizes</summary>
