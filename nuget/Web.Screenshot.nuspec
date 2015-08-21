@@ -10,13 +10,15 @@
         <projectUrl>https://github.com/AlexSanseau/Web.Screenshot</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <summary>A C# library which takes screenshots of websites and emulate different devices and screen sizes</summary>
-        <description>Take screenshots of your websites for different screen sizes to see how it looks on different devices</description>
-        <copyright>Copyright ©  2015 - Novadus Ltd</copyright>
+        <description>Take screenshots of websites for different screen sizes and see how it looks on different devices</description>
+        <copyright>Copyright (C)  2015 - Novadus Ltd</copyright>
 		<tags>Screenshot printscreen responsive website screen size screen shot </tags>
         <language></language>
-    </metadata>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System.Drawing"  />
+        </frameworkAssemblies>
+	</metadata>
     <files>
-        <file src="install.ps1" target="tools\install.ps1"/>
         <file src="net35\Alx.Web.Screenshot.dll" target="lib\net35\Alx.Web.Screenshot.dll" />
         <file src="net40\Alx.Web.Screenshot.dll" target="lib\net40\Alx.Web.Screenshot.dll" />
         <file src="net45\Alx.Web.Screenshot.dll" target="lib\net45\Alx.Web.Screenshot.dll" />
